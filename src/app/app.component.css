@@ -1,0 +1,23 @@
+header{
+    background-color: gray;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: darkgrey;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25%;
+   
+}
+h1{
+    margin-left: 25%;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}

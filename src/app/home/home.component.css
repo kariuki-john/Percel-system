@@ -1,0 +1,70 @@
+header{
+    background-color: gray;
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: darkgrey;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25%;
+   
+}
+h1{
+    margin-left: 25%;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row; 
+    gap:15px;  
+    width: 100%;  
+    margin-top: 8%; 
+}
+input{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    font-size: larger;
+ }
+ p{
+    font-size: 20px;
+ }
+ 
+ .form-controlss{
+    height: 100%;
+    width: 30%;    
+ }
+ .form-controlss select{
+    height: 40px;
+    width: 100%; 
+    margin-top: 5px;
+ }
+ button{
+    height: 40px;
+    width: 60%; 
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color:coral;
+ }
+ .error{
+   color: red;
+ }
+ input.ng-invalid.ng-touched{
+   border: 2px solid red;
+ }
+ h2{
+    margin-left: 40%;
+    font-size: 20px;
+    color: red;
+    }
+ 

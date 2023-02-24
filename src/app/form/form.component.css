@@ -1,0 +1,51 @@
+
+*{ padding: 0px;
+    margin: 0px;
+ }
+ .container{
+     justify-content: center;
+     display: flex;
+     flex-direction: row; 
+     gap:15px;  
+     width: 100%;  
+     margin-top: 8%; 
+ }
+ input{
+    height: 40px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: larger;
+ }
+ p{
+    font-size: 20px;
+ }
+ 
+ .form-controlss{
+    height: 100%;
+    width: 30%;    
+ }
+ .form-controlss select{
+    height: 40px;
+    width: 100%; 
+    margin-top: 5px;
+ }
+ button{
+    height: 40px;
+    width: 60%; 
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color:coral;
+ }
+ .error{
+   color: red;
+ }
+ input.ng-invalid.ng-touched{
+   border: 2px solid red;
+ }
+ h1{
+   margin-left: 35%;
+   margin-top: 20px;
+   font-size: 50px;
+}
+
+ 

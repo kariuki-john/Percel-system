@@ -1,0 +1,30 @@
+<h1>Add your Percell here </h1>
+<div class="container">
+    <form class="form-controlss" (ngSubmit)="submitedForm(form)" #form ="ngForm">
+
+     <div class="form-group">
+        <p> Name</p>
+        <input type="text" name="fname" ngModel required="">
+     </div>
+   
+     
+     
+     <div class="form-group">
+        <p>Email</p>
+        <input type="email" name="email" ngModel required pattern="/^[^\s@]+@travel\.com$/" email #email="ngModel">
+        <span *ngIf="!email.valid  && email.touched" class="error"> Please Enter a valid Email</span>
+     </div>
+     
+     <div class="form-group">
+        <p>Description</p>
+        <input type="text" name="sirname" ngModel required>
+     </div>
+    
+
+     <div class="buttons">
+        <button type="submit">Submit</button>
+     </div>
+
+    </form>
+    
+</div>
